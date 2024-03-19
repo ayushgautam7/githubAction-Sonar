@@ -22,6 +22,6 @@ jobs:
     - name: SonarQube Scan
       uses: kitabisa/sonarqube-action@v1.2.0
       with:
-        host: http://127.0.0.1:4040 
+        host: https://db36-158-228-253-36.ngrok-free.app 
         login: f85d7b3fd32ecc3582848d6644cd5b986d562086 
         projectKey: check
